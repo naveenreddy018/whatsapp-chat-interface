@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.outline{
+        border: 3px solid;
+        width:300px;
+        height:450px;
+        border-radius: 20px;
+background-color: #ECE5DD;
+overflow-x: scroll;
+scrollbar-width: none;
+position: fixed;
+}
+
+.header{
+    border: px solid;
+    width:300px;
+    height:45px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 13px;background-color:white;
+position: fixed;
+    z-index: 1;
+}
+.footer{
+    height: 70px;
+    background-color:white;
+    position:relative;
+top: 380px;
+position: sticky;
+z-index: 6;
+
+
+}
+.image{
+    position: relative;
+    left: 230px;
+    top: 3px;
+   
+}
+.img {
+    position: relative;
+    left: 7px;
+    bottom: 20px;
+    width: 23px;
+}
+.profile{
+    position: relative;
+    bottom: 15px;
+    border-radius:50px;
+    width: 38px;
+    left: 5px;
+   
+}
+ .vk{
+    position: relative;
+    bottom: 75px;
+    left: 80px;
+  font-size: 25px;
+ }
+.video{
+    position: relative;
+    left: 190px;
+    bottom: 130px;
+    width: 30px;
+}
+.narrow{
+    position: relative;
+width: 25px;
+   left: 230px;
+   bottom: 162px;
+   
+}
+.a{
+    position: relative;
+    top: 50px;
+    background-color: white;
+    width: 150px;
+  border-radius: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 15px;
+}
+.b{
+    position: relative;
+    top:50px;
+    width: 200px;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+  padding: 3px;
+    font-size: 15px;
+    left: 90px;
+}
+.mark{
+    width:30px;
+ position: relative;
+ top: 5px;
+}
+.c{
+    background-color: white;
+    width:200px;
+   font-size:15px;
+    border-radius: 20px;
+    position: relative;
+    top:50px;
+
+    padding: 5px;
+}
+.d{
+    background-color: white;
+    width: 220px;
+    border-radius: 20px;
+    position: relative;
+    top:50px;
+    text-align: center;
+    padding: 5px;
+    left: 65px;
+}
+.e{
+    background-color: white;
+    width: 220px;
+    font-size: 15px;
+    position: relative;
+    top:50px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+}
+.f{
+    background-color: white;
+    width: 220px;
+    font-size: 15px;
+    position: relative;
+    top:150px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    left: 60px;
+}
+.g{
+    background-color: white;
+    width: 220px;
+    font-size: 15px;
+    position: relative;
+    top:100px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+   
+}
+
+.h{
+    background-color: white;
+    width: 220px;
+    font-size: 15px;
+    position: relative;
+    top:100px;
+    border-radius: 20px;
+    
+    padding: 5px;
+   left: 60px;
+}
+.i{
+    background-color: white;
+    width: 220px;
+    font-size: 15px;
+    position: relative;
+    top:100px;
+    border-radius: 20px;
+    
+    padding: 5px;
+  
+}
+.j{
+    background-color: white;
+    width: 220px;
+    font-size: 15px;
+    position: relative;
+    top:100px;
+    border-radius: 20px;
+    left:65px;
+    text-align: center;
+    padding: 5px;
+  
+}
+.k{
+    
+    background-color: white;
+    width: 220px;
+    font-size: 15px;
+    position: relative;
+    top:100px;
+    border-radius: 20px;
+    padding: 5px;
+    bottom: 60px;
+    text-align: center;
+  
+}
+.l{
+    background-color: white;
+    width: 220px;
+    font-size: 15px;
+    position: relative;
+    top:140px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    left: 65px;
+}
+.m{
+    background-color: white;
+    width: 220px;
+    font-size: 15px;
+    position: relative;
+    top:100px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+
+}
+.n{
+    background-color: white;
+    width: 220px;
+    font-size: 15px;
+    position: relative;
+    top:100px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    left: 65px;
+}
+.o{
+    background-color: white;
+    width: 220px;
+    font-size: 15px;
+    position: relative;
+    top:100px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.p{
+    background-color: white;
+    width: 220px;
+    font-size: 15px;
+    position: relative;
+    top:100px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    left: 65px;
+}
+
+.q{
+    background-color: white;
+    width: 220px;
+    font-size: 15px;
+    position: relative;
+    top:100px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.sticky{
+    width: 100px;
+    height: 20px;
+    background-color:rgb(240, 206, 206);
+    position: relative;
+    left: 100px;
+    top: 50px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 5px;
+    position: sticky;
+    z-index: 2;
+}
+.sticky1{
+    width: 100px;
+    height: 20px;
+    background-color:rgb(240, 206, 206);
+    position: relative;
+    left: 100px;
+   top: 50px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 5px;
+    position: sticky;
+    z-index: 3;
+}
+.sticky2{
+    width: 100px;
+    height: 20px;
+    background-color:rgb(240, 206, 206);
+    position: relative;
+    left: 100px;
+    top: 50px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 5px;
+    position: sticky;
+    z-index: 4;
+}
+.sticky3{
+    width: 100px;
+    height: 20px;
+    background-color:rgb(240, 206, 206);
+    position: relative;
+    left: 100px;
+    top: 50px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 5px;
+    position: sticky;
+    z-index:5;
+}
+
+.r{ background-color: white;
+    width: 220px;
+    font-size: 15px;
+    position: relative;
+    top:50px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;}
+
+.s{
+    background-color: white;
+    width: 190px;
+    font-size: 15px;
+    position: relative;
+    top:50px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    left: 100px;
+}
+.t{
+    background-color: white;
+    width: 150px;
+    font-size: 15px;
+    position: relative;
+    top:50px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+  left: 10px;
+}
+.u{
+    background-color: white;
+    width: 150px;
+    font-size: 15px;
+    position: relative;
+    top:50px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+  left: 10px;
+}
+.v{
+    background-color: white;
+    width: 150px;
+    font-size: 15px;
+    position: relative;
+    top:50px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+  left: 10px;
+}
+.w{
+    background-color: white;
+    width: 150px;
+    font-size: 15px;
+    position: relative;
+    top:50px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+  left: 10px;
+}
+.x{
+    background-color: white;
+    width: 150px;
+    font-size: 15px;
+    position: relative;
+    top:50px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+  left: 110px;
+}
+.input{
+   
+    position: relative;
+    left:px;
+    height: 20px;
+  padding: 5px;
+width: 240px;
+border-radius: 20px;
+font-size: 16px;
+border-color: black;
+text-align: center;
+top: 8px;
+}
+
+.style{
+    position: relative;
+    bottom: 32px;
+    right: 30px;
+    width: 25px;
+
+
+}
+.file{
+    position: relative;
+    bottom: 90px;
+  width: 20px;
+    left: 170px;
+}
+.cam{
+    position: relative;
+    bottom: 89px;
+    left: 190px;
+
+    width: 25px;
+}
+.three{
+    position: relative;
+    left: 225px;
+    bottom: 130px;
+}
+.rupee{
+    width: 22px;
+    position: relative;
+    bottom: 60px;
+    left: 190px;
+}
+.mike{
+    position: relative;
+    width:35px;
+    left: 260px;
+    bottom: 30px;
+}
+  </style>
+
+
+
+</head>
+<body>
+    <div class="outline">
+        
+        <div class="header">
+                <img class="image"  src="" >
+                
+                <div>
+                    <img class="img"  src="./arrow-left.svg" width="25">
+                    <img class="profile" src="./profile.jpg" width="40">
+                    <p class="vk">virat</p>
+                    <img class="video"  src="./camera-video.svg"  >
+                    <img  class="three"  src="./three-dots-vertical - Copy.svg"  width="30px">
+                   
+                </div>
+                <img class="narrow" src="./telephone.svg">
+                </div>
+                <div class="footer">
+                     <input class="input" type="text" placeholder="Type message          " ><div ><img class="mike" src="./Mike_Icon_icon-icons.com_76436.png" width="40"> <img class="style" src="./emoji-smile.svg" width="30"></div>
+                    
+                     <div><img class="rupee" src="./currency-rupee.svg" >  </div><img class="file" src="./paperclip.svg"> 
+                     <img  class="cam"  src="./camera.svg">
+                </div>
+                <div class="sticky">
+                    19 june 2024
+                                 </div>
+                <p class="a"> Rohit! We did it!</p>
+                <p class="b">Yes, Virat! World Champions again! What a feeling!<img style="position: relative;top: 5px;left: 7px;" src="./Screenshot 2024-07-27 143912.png" width="30px"> </p>
+                <p class="c"> : Absolutely surreal. The hard work paid off. The team was fantastic! </p>
+               <p class="d">Everyone played their hearts out. And your knock in the final was incredible!<img style="position: relative;top: 5px;left: 50px;" src="./Screenshot 2024-07-27 143912.png" width="30px"></p>
+             <p class="e"> Thanks, Rohit. But it was a team effort. Your captaincy was spot on, as always.</p>
+             <p class="f">: Appreciate it, Virat. The way the bowlers stepped up was amazing too.<img style="position: relative;top: 5px;left: 80px;" src="./Screenshot 2024-07-27 143912.png" width="30px"></p>
+             <div class="sticky1">
+20 june 2024
+             </div>
+            <p class="g">Definitely. Arjun and Bumrah were exceptional with the ball. And the fielding was top-notch.</p>
+
+             <p class="h">For sure. Every single player contributed. That’s what makes this victory so special.<img style="position: relative;top: 5px;left: 80px;" src="./Screenshot 2024-07-27 143912.png" width="30px"></p>
+              <p class="i">Absolutely. They’ve been our And the fans!</p>
+
+            <p class="j">Time to celebrate with the team and the fans. This moment is for everyone who believed in us.<img style="position: relative;top: 5px;left: px;" src="./Screenshot 2024-07-27 143912.png" width="30px"></p>
+
+            <p class="k">:Indeed.A well-deserved celebration. Where are we heading for the party?</p>
+
+              <p class="l">Heard there’s a big bash planned at the hotel. Let’s make it a night to remember!.<img style="position: relative;top: 5px;left: 55px;" src="./Screenshot 2024-07-27 143912.png" width="30px"></p>
+                <div class="sticky2">
+                22 june 2024
+                </div>
+        <p class="m">Sounds perfect. We’ve earned it. Let’s enjoy this victory to the fullest.</p>
+           <p class="n">Cheers to that! And here’s to many more victories together. <img style="position: relative;top: 5px;left:20px;" src="./Screenshot 2024-07-27 143912.png" width="30px"></p>
+            <p class="o">: Absolutely,. Here’s to Team India and a bright future ahead!</p>
+           <p class="p">: See you at the party, Rohit. Time to celebrate like champions! <img style="position: relative;top: 5px;left:10px;" src="./Screenshot 2024-07-27 143912.png" width="30px"></p>
+           <p class="q">See you there, Virat. Let’s make it epic!</p>
+           <div class="sticky3">
+            23 june2024
+           </div>
+           <p class="r"> hey virat and rohith it'me naveen </p>
+           <p class="s">hii naveen आप कैसे हैं 	&#128525 <img style="position: relative;top: 5px;left:px;" src="./Screenshot 2024-07-27 143912.png" width="30px"></p>
+           <p class="t">मैं ठीक हूं रोहित भाई</p>
+           <p class="u"> virat bhai namaste  &#x1F44F</p>
+           <p class="v"> hii naveen how r u my boy</p>
+           <P class="w">i am fine virat bayya  and rohith bayya , lets rock the party to night &#127870 &#129346 </P>
+           <p class="x">god's plan naveen let's celebrate our triumph &#x1F37E <img style="position: relative;top: 5px;left: 55px;" src="./Screenshot 2024-07-27 143912.png" width="30px"></p>
+        
+            </div>
+
+</body>
+</html>
